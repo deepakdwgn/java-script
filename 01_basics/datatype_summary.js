@@ -32,3 +32,28 @@ const myFunction = function(){
 console.log("Hello World");
 
 }
+
+console.log(typeof outsideTemp);
+
+
+let myName = "Deepak Dewangan"
+let anotherName = myName
+anotherName = "Umang Dewangan"
+
+console.log(anotherName);
+console.log(myName);
+
+
+let userOne = 
+{
+ email: "deepak@google.com",
+ upiId: "deepak@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "umang@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
