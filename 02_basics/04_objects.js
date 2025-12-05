@@ -43,11 +43,23 @@ const user = [
     }
 ]
 user[2].email 
-console.log(facebookuser);
+// console.log(facebookuser);
 
-console.log(Object.keys(facebookuser));
+// console.log(Object.keys(facebookuser));
 // console.log(Object.values(facebookuser.name));
-console.log(Object.values(facebookuser));
-console.log(Object.entries(facebookuser));
+// console.log(Object.values(facebookuser));
+// console.log(Object.entries(facebookuser));
 
-console.log(facebookuser.hasOwnProperty('isLoggedIn'));
+// console.log(facebookuser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    courseName: "Jawa Script Basics",
+    coursePrice: "999",
+    courseInstructor: "Deepak"
+}
+course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
